@@ -11,4 +11,4 @@ Once we have the vectors representation of the sentences, we can use cosine simi
 The cosine similarity will always be a value between -1 and 1.
 - 1 means the vectors are identical. (the sentences are very similar)
 - 0 means the vectors are orthogonal. (the sentences are completely dissimilar)
-- -1 means the vectors are completely opposite. (the sentences are very dissimilar, though in the case of sentences embeddings, value closer to -2 are rare).
+- -1 means the vectors are completely opposite. (the sentences are very dissimilar, though in the case of sentences embeddings, value closer to -1 are rare).

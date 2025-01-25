@@ -31,7 +31,7 @@ def get_answer(query, faqs):
 # Main execution function
 def main():
     # Specify your JSON file path
-    json_file = 'faq_data.json'  # Replace with your JSON file path
+    json_file = 'train.json'  # Replace with your JSON file path
 
     # Load FAQs
     faqs = load_faqs(json_file)
